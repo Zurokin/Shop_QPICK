@@ -12,6 +12,7 @@ import {
 const initialState: IBasketState = {
   basketProductsList: [],
   totalSum: 0,
+  items: [],
 };
 
 const basketSlice = createSlice({

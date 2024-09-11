@@ -1,4 +1,5 @@
 export interface IProduct {
+  quantity: 0;
   id: number;
   categoryId: number;
   name: string;

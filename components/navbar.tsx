@@ -13,7 +13,7 @@ const Navbar = () => {
   );
 
   const quantity = React.useMemo(
-    () => basketProductsList.length,
+    () => basketProductsList.reduce((total, item) => total + item.quantity, 0),
     [basketProductsList]
   );
 

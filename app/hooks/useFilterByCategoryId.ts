@@ -1,14 +1,17 @@
 interface IArrayWithCategoryId {
-	categoryId: number;
+  categoryId: number;
 }
 
-interface IParams {
-	array: IArrayWithCategoryId[];
-	id: number;
+interface IParams<T extends IArrayWithCategoryId> {
+  array: T[];
+  id: number;
 }
 
-const useFilterByCategoryId = ({ array, id }: IParams): Array<any> => {
-	return array.filter(element => element.categoryId === id);
+const useFilterByCategoryId = <T extends IArrayWithCategoryId>({
+  array,
+  id,
+}: IParams<T>): T[] => {
+  return array.filter((element) => element.categoryId === id);
 };
 
 export default useFilterByCategoryId;

@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import Counter from "../Counter";
+import Counter from "@/BasketComponents/Counter";
 import getDiscountedPrice from "app/additionalModule/productDiscount";
 import useAppDispatch from "app/hooks/useAppDispatch";
 import { IBasketProduct } from "app/store/slices/basket/types";

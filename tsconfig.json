@@ -3,7 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "@/components/*": ["components/*"],
-      "@/MainShopComponents/*": ["components/MainShopComponents/*"]
+      "@/MainShopComponents/*": ["components/MainShopComponents/*"],
+      "@/BasketComponents/*": ["components/BasketComponents/*"]
     },
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
