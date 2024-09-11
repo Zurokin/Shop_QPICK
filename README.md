@@ -1,12 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with
+Это проект на [Next.js](https://nextjs.org)
 
-## Getting Started
-
-First, run the development server:
+Начало работы
+Сначала запустите сервер разработки:
 
 ```bash
 yarn dev
 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Откройте [http://localhost:3000](http://localhost:3000) в вашем браузере, чтобы увидеть результат.
