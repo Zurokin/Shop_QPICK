@@ -1,11 +1,11 @@
 import * as React from "react";
-import AsidesRow from "../сardText";
+import AsidesRow from "@/MainShopComponents/сardText";
 import { IProduct } from "app/store/slices/products/types";
 import { addToBasket } from "app/store/slices/basket";
 import useAppDispatch from "app/hooks/useAppDispatch";
 import { FaEye } from "react-icons/fa";
 import Image from "next/image";
-import ProductModal from "../ProductModal";
+import ProductModal from "@/MainShopComponents/ProductModal";
 import RateIcon from "public/icons/RateIcon";
 
 interface TProps {
